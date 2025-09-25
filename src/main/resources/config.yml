@@ -1,0 +1,5 @@
+cooldown:
+  time: 50
+
+explosion:
+  power: 6.0

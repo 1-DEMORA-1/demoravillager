@@ -1,0 +1,24 @@
+name: DemoraVillager
+version: 1.0.0
+main: ru.demora.demoravillager.DemoraVillager
+api-version: 1.21
+author: __DEMORA__
+description: Плагин посохом жителя
+
+commands:
+  demoravillager:
+    description: Основная команда плагина
+    usage: /demoravillager <give|reload> [игрок]
+    permission: demoravillager.use
+    aliases: [dv]
+
+permissions:
+  demoravillager.use:
+    description: Основное разрешение плагина
+    default: op
+  demoravillager.give:
+    description: Разрешение на выдачу посоха жителя
+    default: op
+  demoravillager.reload:
+    description: Разрешение на перезагрузку плагина
+    default: op
